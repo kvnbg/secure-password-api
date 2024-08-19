@@ -1,0 +1,15 @@
+### Invalid
+POST http://localhost:8080
+Content-Type: application/json
+
+{
+  "password": "1"
+}
+### Valid
+POST http://localhost:8080
+Content-Type: application/json
+
+{
+  "password": "12345678Aa#"
+}
+###
